@@ -1,4 +1,4 @@
-// © Bailey Danseglio 2018 //
+// Â© Bailey Danseglio 2018 //
 
 package frameComponents;
 
@@ -34,7 +34,7 @@ import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 
 public class MainFrame {
-	//Declaration of all calculator's components.
+	
     static JButton cats[];
     static JButton close;
     public static JLabel time;
@@ -110,7 +110,7 @@ public class MainFrame {
 		
 		
 		//copyright label
-		copyright = new JLabel("© Bailey Danseglio 2018, All rights reserved.");
+		copyright = new JLabel("Â© Bailey Danseglio 2018, All rights reserved.");
 		mainFrame.getContentPane().add(copyright);
 		copyright.setSize(550,20);
 		copyright.setLocation(550, 695);
